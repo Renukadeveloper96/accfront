@@ -1,0 +1,116 @@
+#main{
+  margin-left:3%;
+  margin-top:2%;
+}
+#content{
+  width:50%;
+  float:left;
+  margin-left:1%;
+  margin-top:-1%;
+}
+.list_content{
+  width:180%;
+  height:350px;
+  /*border:5px solid skyblue;*/
+  margin-top:1%;
+  }
+  .list_content1
+  {
+  height:170px;
+  /* border:5px solid red;*/
+   border:none;
+    margin-top:86%;
+   width:100%;
+  
+  }
+  .list_subcontent{
+      margin:3px;
+      width:24%;
+      height:90%;
+      float:left;
+     /*border:2px solid red;*/
+     box-shadow:0px 3px 15px gray;
+  }
+  .list_subcontent3{
+    width:40%;
+    margin-left:250px;
+  }
+  .list_subcontent1{
+  border:2px solid skyblue;
+  margin-left:-180px;
+  }
+  .googletitle{
+    font-size:15px;
+    margin-top:20px;
+    margin-left: 10%;
+  }
+  .google1>img{
+    width:18%;
+    float:left;
+    margin-left:30px;
+    margin-top:20px;
+    }
+  
+  .list_subcontents{
+    margin:3px;
+    width:98%;
+    height:65%;
+    float:left;
+   
+    /*border:2px solid gray;*/
+   box-shadow:0px 3px 5px gray;
+  }
+  .list_subcontents >img{
+    width:50%;
+    height:100%;
+    margin-left:70px;
+  }
+  .exchange>img{
+    width:500px;
+    height:170px;
+    margin-left:10px;
+  }
+  .exchange{
+    height:170px;
+    width:520px;
+    box-shadow:0px 4px 5px gray;
+  }
+  .description
+  {
+  margin-top:-5px;
+  }
+   .boldtext{
+    color: red;
+    font-size:18px
+}
+.name{
+  color:gray;
+  font-size:18px;
+  }
+.culstor-title{
+  font-size:15px;
+  color:black;
+}
+.small{
+  font-size:small;
+  color:gray;
+  }
+.offer{
+color:chocolate;
+margin-left:10px;
+}
+.google>img{
+  width:40%;
+  float:left;
+  margin-left:20px;
+  margin-top:20px;
+}
+.navbar-inverse1{
+background-color:rgb(240, 194, 194);
+margin: shadow 100px;
+}
+a{
+color:black;
+}
+/*last*/
+    

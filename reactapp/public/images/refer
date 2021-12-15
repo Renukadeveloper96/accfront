@@ -1,0 +1,142 @@
+<nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#firstnav">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Shop</a>
+              </div>
+              <div id="firstnav" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav visible-lg">
+                  <li><a href="#"><img src="./icons/facebook.svg" alt=""></img></a></li>
+                  <li><a href="#"><img src="./icons/twitter.svg" alt=""></img></a></li>
+                  <li><a href="#"><img src="./icons/google.svg" alt=""></img></a></li>
+                  <li><a href="#"><img src="./icons/instagram.svg" alt=""></img></a></li>
+                  <li><a href="#"><img src="./icons/search.svg" alt=""></img></a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#"><img src="./icons/user-icon.svg" alt=""></img>Log in</a></li>
+                  <li><a href="#"><img src="./icons/edit.svg" alt=""></img>Register Now</a></li>
+                  <li><a href="#"><img src="./icons/cart.svg" alt=""></img>0 Items - ($0.00)</a></li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-4 ">
+                <div class="contact">
+                  <img src="./icons/phone.svg" alt=""></img>
+                  <div>
+                    <h5>Call US:85533627**</h5>
+                    <h6>E-mail : acess@gmail.com</h6>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-4  visible-lg">
+                <div class="logo">
+                  <img src="icons/logo.jpg" style={{height:"40px"}}/>
+                <div class="logo1">
+                <h5>accessories</h5>
+              </div>
+            </div>
+          </div>
+          <div class=" col-sm-4 ">
+            <div class="time">
+              <a href="#">
+                <img src="./icons/clock.svg" alt=""></img>
+              </a>
+              <div>
+                <h5>Working Hours:</h5>
+                <h6>24 hours</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <div id="main1">
+        <center><h1>Women's Accessories</h1></center>
+        <div id="filter">
+            <div class='flx'>
+                <h4>CATEGORIES</h4>
+                <div class='demoScroll sc1'>
+                    <div class="h500">
+                    <input type="checkbox"/> Hair Accessories<br/>
+                    <input type="checkbox" onClick="eye"/> Eye MASK<br/>
+                    <input type="checkbox"/> Earrings<br/>
+                    <input type="checkbox"/> Jewelary<br/>
+                    <input type="checkbox"/> Hair Accessories
+                </div>
+            </div>
+            <hr/>
+        </div>
+        <div class='flx'>
+          <h4>BRANDS</h4>
+            <div class='demoScroll2 sc2'>
+              <div class="h500">
+                  <input type="checkbox"/> FASTRACK HEARABLES<br/>
+                  <input type="checkbox"/> STUFFCOOL<br/>
+              </div>
+            </div>
+         <hr/>
+        </div>
+        <div class='flx'>
+            <h4>COLORS</h4>
+                <div class='demoScroll3 sc3'>
+                    <div class="h300">
+                        <input type="checkbox"/> As per images<br/>
+                    </div>
+                </div>
+            <hr/>
+        </div>
+        <div class='flx'>
+            <h4>DELIVERY TYPE</h4>
+                <div class='demoScroll3 sc3'>
+                  <div class="h300">
+                      <input type="checkbox"/> Express Store Pick up<br/>
+                  </div>
+                </div>
+            <hr/>
+        </div>
+        <div class='flx'>
+            <h4>PRICE</h4>
+                <div class='demoScroll4 sc4'>
+                    <div class="h600">
+                        <input type="checkbox"/> 100-200<br/>
+                        <input type="checkbox"/> 200-300<br/>
+                        <input type="checkbox"/> 300-400<br/>
+                    </div>
+                </div>
+            <hr/>
+        </div>
+        <div class='flx'>
+            <h4>Enter a price range</h4>
+                <div class='demoScroll3 sc3'>
+                    <div class="h300">
+                      <input type="text" class="rupee" placeholder="$" />&nbsp; to &nbsp;
+                      <input type="text" class="rupee" placeholder="$" />
+                    </div>
+                </div>
+            <button class="search">REFINE SEARCH</button>
+        </div>
+    </div>
+    </div>
+    <div id="contents">
+      <div class="list_subcontent">
+         <div class="list_subcontents">
+            <img src="{item.thumb}" alt="earrings"></img>
+          </div>
+          <div class="list_subcontents2 description">
+            <center>
+              <div class="boldtext">
+              <h5 class="name" >item.name</h5>
+                <div class="culstor-title">item.description</div>
+                <p><span>item.cost&nbsp;<del class="small">item.strike</del>&nbsp;<span class="culstor-title offer">item.offer</span></span></p>
+              </div>
+            </center>
+          </div>
+        </div>
+    </div>
+    

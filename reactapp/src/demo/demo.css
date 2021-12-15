@@ -1,0 +1,145 @@
+.loginPopup {
+    text-align: center;
+    width: 100%;
+  }
+  .formContainer {
+    max-width: 500px;
+    padding: 20px;
+    background-color: #fff;
+  }
+  .right{
+margin-top:-1px;
+margin-right:45px;
+}
+.formContainer .cancel {
+    background-color: #cc0000;
+  }
+
+.container {
+padding: 2px 16px;
+background-color: #f1f1f1;
+}
+.tileContainer{
+height: 180px;
+width: 108%;
+box-shadow: 0px 3px 15px black;
+display: inline-block;
+margin-left: -4%;
+margin-top: 3%;
+}
+.tileComponent1{
+width:46%;
+float: left;
+}
+
+.tileComponent2{
+width:46%;
+float: left;
+margin-left:20px;
+
+}
+.tileComponent1 > img{
+height: 180px;
+width:100%
+}
+.componentHeading > img{
+height: 180px;
+width:100%
+}
+.componentHeading{
+color: #192f60;
+font-size:25px;
+font-weight: bold
+}
+.componentSubHeading{
+color: gray;
+font-size:18px;
+line-height:1;
+}
+.formContainer .btn1 {
+    padding: 12px 20px;
+    border: none;
+    background-color: skyblue;
+    color: #fff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+    border-radius: none;
+    margin-top:20px
+  }
+  .formContainer .cancel {
+    background-color: #cc0000;
+  }
+  .formContainer .btn:hover,
+  .openButton:hover {
+    opacity: 1;
+  }
+  .left {
+float: left;
+}
+.right {
+float: right;
+}
+body {
+font-family: Arial;
+}
+
+.coupon {
+border: 5px solid red;
+width: 80%;
+border-radius: 15px;
+margin: 0 auto;
+max-width: 600px;
+height:40px;
+}
+
+.container {
+padding: 2px 16px;
+background-color: #f1f1f1;
+}
+
+.promo {
+background: #ccc;
+padding: 3px;
+}
+
+.expire {
+color: red;
+}
+.loginPopup {
+    text-align: center;
+    width: 100%;
+  }
+  .promo-box{
+      height:200px;
+      width:400px;
+      background-color:black;
+      color:white;
+  }
+  .cancel{
+      margin-left:372px;
+  }
+  .font{
+      font-size:20px;
+      font-weight: bold;
+  }
+  .font1{
+    font-size:13px;
+   
+  }
+  .coupen-code{
+    background-color:rgb(39, 39, 38);
+    height:25px;
+    width:70%;
+    margin-top:10px;
+    margin-left:40px;
+  }
+  .ZOMAA407{
+      color:red;
+  }
+  .Apply{
+      background-color:greenyellow;
+      border:none;
+      margin-left:4px;
+  }

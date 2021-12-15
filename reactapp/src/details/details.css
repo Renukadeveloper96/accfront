@@ -1,0 +1,52 @@
+.slideimage{
+    height:400px;
+    width:800px;
+}
+.containermodify{
+    height:300px;
+    width:900px;
+  
+}
+.color{
+    /*background-color:yellow;*/
+    margin-left:13px
+}
+h6{
+color: #80ced6;
+}
+span{
+color: #f18973;
+}
+.modal-content{
+    width:900px;
+    margin-left:-142px;
+    height:490px;
+    margin-top:-20px;
+}
+.detailsname{
+    font-weight:10px;
+    font-size:35px;
+    margin-top:-25px;
+}
+.detailscost{
+    font-size:15px;
+    margin-top:6px;
+}
+.description{
+    font-size:20px;
+    margin-top:6px;
+}
+.details{
+    font-size:25px;
+    font-weight:15px;
+}
+.viewed{
+    font-size:20px;
+    font-weight:15px;
+}
+.accessories{
+    font-weight:25px;
+    color:red;
+    font-size:30px;
+    margin-left:140px;
+}
